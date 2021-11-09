@@ -1,3 +1,37 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+header h1 {
+  text-align: center;
+}
+
 .esports-info {
   display: inline-block;
+  width: 23%;
+  height: 500px;
+  margin: 35px;
+  overflow: scroll;
+  border: 1px solid gray;
+}
+
+.esports-info-img{
+  width: 400px;
+  background-color: green;
+}
+
+.esports-tournaments {
+  width: 80%;
+  margin: 35px 35px 0 35px;
+  display: block;
+
+}
+
+.dota-tournament-img {
+  width: 400px;
+  margin-right: 35px;
+  float: left;
 }
